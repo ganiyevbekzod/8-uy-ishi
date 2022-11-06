@@ -1,0 +1,81 @@
+.commit__inner{
+    display: flex;
+    align-items: center;
+    padding: 168px 85px 0px;
+}
+.commit__content{
+    margin-left: auto;
+    width: 540px;
+}
+.commit__title{
+    font-family: 'Fraunces';
+    margin: 0px;
+    padding-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+.commit__text{
+    font-family: 'Barlow';
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+@media only screen and (max-width:768px) {
+    .commit__inner{
+        padding: 0px;
+    }
+    .commit__content{
+        max-width:339px;
+    }
+    .commit__img{
+        width: 281px;
+        height: 470px;
+    }
+    .commit__title{
+        font-size: 32px;
+    line-height: 48px;
+    }
+    .commit__text{
+        font-size: 15px;
+    line-height: 25px;
+    }
+    
+}
+@media only screen and (max-width:576px) {
+    .commit__inner{
+        display: block;
+        margin: 0 auto;
+        padding-top: 120px;
+        text-align: center;
+    }
+    .commit__content{
+        margin: 0 auto;
+        max-width:330px;
+    }
+    .commit__title{
+        padding: 48px 0px 30px;
+    }
+    
+}
+@media only screen and (max-width:360px) {
+    .commit__content{
+        width: 100%;
+    }
+    .commit__title{
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .commit__text{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+}
