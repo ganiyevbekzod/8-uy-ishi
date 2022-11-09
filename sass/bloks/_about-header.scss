@@ -1,13 +1,10 @@
 // header started
 .header__inner{
-    display: flex;
-    align-items: center;
+    @include unsed-list(flex,center,space-between);
     padding: 45px 0px;
 }
 .header__list{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+    @include unsed-list($display:flex);
     padding: 0;
     list-style-type: none;
 }
